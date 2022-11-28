@@ -21,7 +21,7 @@ if imgfile is not None:
     img = Image.open(imgfile)
 
     # マスクのイラストの画像
-    mask = Image.open("mask.png")
+    mask = Image.open(imgfile)
 
     # 元の画像を表示
     st.write("元の画像")
