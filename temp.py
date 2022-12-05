@@ -9,9 +9,15 @@ import streamlit as st
 import numpy as np
 from mtcnn import MTCNN
 from PIL import Image
-
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>みんなのプライバシーを守り隊</title>
+        
 st.title("みんなのプライバシーを守り隊！どんな写真もまかセロリ！安心してアップしよう")
-st.title("ここに写真をアップロードしてね")
+
+st.title("⬇ここに写真をアップロードしてね")
 # 画像ファイルをアップロードするためのウィジェット
 imgfile = st.file_uploader("Upload Image", type=["png", "jpg"], accept_multiple_files=False)
 
@@ -52,4 +58,4 @@ if imgfile is not None:
     st.write("サングラスを付けた画像")
     st.image(pil_img, use_column_width=True)
     
-   
+   </html>
