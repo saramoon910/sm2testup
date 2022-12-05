@@ -10,7 +10,7 @@ import numpy as np
 from mtcnn import MTCNN
 from PIL import Image
 
-st.title("みんなのプライバシーをまもれ！")
+st.title("みんなのプライバシーを守り隊！どんな写真もまかセロリ！安心してアップしよう")
 
 # 画像ファイルをアップロードするためのウィジェット
 imgfile = st.file_uploader("Upload Image", type=["png", "jpg"], accept_multiple_files=False)
