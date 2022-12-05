@@ -20,7 +20,7 @@ if imgfile is not None:
     img = Image.open(imgfile)
 
     # マスクのイラストの画像
-    glass = Image.open('glass.PNG')
+    glass = Image.open('glass.png')
 
     # 元の画像を表示
     st.write("元の画像")
